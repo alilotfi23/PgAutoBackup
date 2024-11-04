@@ -1,7 +1,3 @@
-Here's a professional README for your PostgreSQL backup script:
-
----
-
 # PostgreSQL Backup Script
 
 This script automates daily and weekly backups of a PostgreSQL database, with options for logging, directory management, and error handling. The script is intended to be run on a Linux server where PostgreSQL is installed and accessible.
