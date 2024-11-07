@@ -1,12 +1,12 @@
 # PostgreSQL Backup Script
 
-This script automates daily and weekly backups of a PostgreSQL database, with options for logging, directory management, and error handling. The script is intended to be run on a Linux server where PostgreSQL is installed and accessible.
+This script automates daily and weekly backups of a PostgreSQL database, with options for logging, directory management, and error handling. It is intended to be run on a Linux server with PostgreSQL installed and accessible.
 
 ## Features
 
-- **Daily Backups**: Stores a backup of the database every day in a designated "daily" directory.
+- **Daily Backups**: Stores a database backup every day in a designated "daily" directory.
 - **Weekly Backups**: Stores a weekly backup (on Sundays) in a separate "weekly" directory.
-- **Automatic Directory Management**: Creates necessary backup directories if they do not already exist.
+- **Automatic Directory Management**: Creates necessary backup directories if they do not exist.
 - **Error Handling**: Utilizes `set -e` to halt execution on any command failure.
 - **Logging**: Logs backup success and failure events for easy tracking.
 
